@@ -15,7 +15,7 @@ _List EC2 Instances_
 
 ```bash
 curl -v \
-  -XGET \
+  -X \
   -H 'Content-type: application/json' \
   -H 'accessKeyId: YOUR_ACCESS_KEY_ID' \
   -H 'secretAccessKey: YOUR_SECRET_ACCESS_KEY' \
@@ -40,7 +40,7 @@ _Start an EC2 Instance_
 
 ```bash
 curl -v \
-  -XGET \
+  -X \
   -H 'Content-type: application/json' \
   -H 'accessKeyId: YOUR_ACCESS_KEY_ID' \
   -H 'secretAccessKey: YOUR_SECRET_ACCESS_KEY' \
@@ -58,7 +58,7 @@ _Stop an EC2 Instance_
 
 ```bash
 curl -v \
-  -XGET \
+  -X \
   -H 'Content-type: application/json' \
   -H 'accessKeyId: YOUR_ACCESS_KEY_ID' \
   -H 'secretAccessKey: YOUR_SECRET_ACCESS_KEY' \
