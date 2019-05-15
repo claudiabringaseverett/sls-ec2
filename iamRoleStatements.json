@@ -1,0 +1,11 @@
+[
+  {
+    "Effect": "Allow",
+    "Action": [
+      "ec2:describeInstances",
+      "ec2:startInstances",
+      "ec2:stopInstances"
+    ],
+    "Resource": "*"
+  }
+]
